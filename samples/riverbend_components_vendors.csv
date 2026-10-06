@@ -1,0 +1,13 @@
+vendor,service,owner,data_sensitivity,system_access,business_criticality,remote_access,certifications,last_assessment_date,breach_last_24mo,contract_security_clause,contract_breach_notification,contract_right_to_audit,contract_data_return,q_mfa,q_encryption,q_patching,q_backup,q_incident_response,q_access_review,q_training,q_subprocessors
+Lakeshore IT Services,Managed IT provider,Jim Miller,confidential,privileged,critical,true,,2024-02-15,false,true,false,false,false,partial,yes,partial,yes,no,no,yes,no
+Payline Payroll,Payroll and HR software,Dana Reyes,regulated,limited,high,false,soc2,2025-11-10,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,partial
+CloudDesk 365,Email and file storage,Jim Miller,confidential,limited,critical,false,soc2;iso27001;fedramp,2026-01-20,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,yes
+NorthStar ERP Cloud,ERP hosting,Jim Miller,confidential,privileged,critical,true,soc2,2025-06-30,true,true,true,false,true,yes,yes,partial,yes,yes,partial,yes,partial
+Climate Control Pros,HVAC and building controls,Facilities,internal,limited,medium,true,,,false,false,false,false,false,no,partial,no,,,,,
+Precision CAD Co,Design software licenses,Engineering,internal,none,medium,false,iso27001,2025-09-01,false,true,false,false,false,yes,yes,yes,yes,partial,yes,yes,yes
+Shred-Right,Document destruction,Office,confidential,none,low,false,,2023-05-12,false,false,false,false,true,,,,,,,,
+Midwest Freight Brokers,Freight booking portal,Shipping,internal,limited,high,false,,2025-03-14,false,false,false,false,false,partial,yes,partial,yes,no,no,partial,no
+QuickStaff Agency,Temporary staffing,HR,regulated,none,medium,false,,,false,true,false,false,false,,,,,,,,
+Barnes & Kim CPAs,Accounting and tax,Dana Reyes,regulated,none,high,false,,2025-12-01,false,true,true,false,false,yes,yes,yes,partial,partial,no,yes,no
+PrintPoint Leasing,Copier lease and scan-to-email,Office,internal,limited,low,true,,,false,false,false,false,false,no,no,partial,no,no,no,no,no
+WebNest Hosting,Company website hosting,Marketing,none,none,low,false,soc2,2024-08-20,false,true,false,false,false,yes,yes,yes,yes,yes,partial,yes,yes

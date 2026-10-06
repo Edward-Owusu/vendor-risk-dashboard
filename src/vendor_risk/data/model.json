@@ -1,0 +1,21 @@
+{
+  "_comment": "Scoring model and organization-defined parameters. Copy, adjust, and pass with --model.",
+  "sensitivity": {"none": 1, "internal": 2, "confidential": 3, "regulated": 4},
+  "criticality": {"low": 1, "medium": 2, "high": 3, "critical": 4},
+  "access": {"none": 0, "limited": 0, "privileged": 1},
+  "controls": {
+    "q_mfa": {"label": "Multi-factor authentication", "weight": 3},
+    "q_encryption": {"label": "Encryption of data in transit and at rest", "weight": 2},
+    "q_patching": {"label": "Timely patching", "weight": 2},
+    "q_backup": {"label": "Tested backups", "weight": 2},
+    "q_incident_response": {"label": "Incident response plan", "weight": 2},
+    "q_access_review": {"label": "Periodic access reviews", "weight": 1},
+    "q_training": {"label": "Security awareness training", "weight": 1},
+    "q_subprocessors": {"label": "Oversight of their own suppliers", "weight": 1}
+  },
+  "certification_bonus": 10,
+  "recognized_certifications": ["soc2", "iso27001", "fedramp", "cmmc", "hitrust", "pci"],
+  "likelihood_from_strength": [[85, 1], [70, 2], [50, 3], [30, 4], [0, 5]],
+  "risk_bands": [[15, "Critical"], [10, "High"], [5, "Moderate"], [1, "Low"]],
+  "reassessment_months": {"1": 12, "2": 24, "3": 36}
+}

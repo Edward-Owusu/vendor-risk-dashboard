@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vendor-risk"
+version = "0.1.0"
+description = "Third-party and supply chain risk scoring with heat map and vendor scorecards for small and mid-sized organizations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Edward Owusu"}]
+keywords = ["vendor risk", "third-party risk", "supply chain", "tprm", "nist", "csf", "grc", "small business"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Security",
+  "Intended Audience :: Information Technology",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.37", "pandas>=2.0"]
+
+[project.scripts]
+vendor-risk = "vendor_risk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vendor_risk = ["data/*.json"]

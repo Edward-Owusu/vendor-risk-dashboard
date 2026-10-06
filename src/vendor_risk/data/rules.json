@@ -1,0 +1,23 @@
+{
+  "frameworks": "NIST SP 800-53 Rev. 5 Supply Chain Risk Management and related controls; NIST Cybersecurity Framework 2.0 GV.SC (Cybersecurity Supply Chain Risk Management).",
+  "rules": [
+    {"id": "VR-01", "title": "Vendor assessment is overdue or has never been done", "severity": "high", "controls": ["SR-6"], "csf": ["GV.SC-07"],
+     "remediation": "Send the security questionnaire, review the vendor's certifications, and record the assessment date; Tier 1 vendors should be reassessed at least yearly."},
+    {"id": "VR-02", "title": "Contract has no security requirements", "severity": "high", "controls": ["SA-9", "SA-4"], "csf": ["GV.SC-05"],
+     "remediation": "Add a security addendum requiring the vendor to maintain safeguards appropriate to the data and access it receives."},
+    {"id": "VR-03", "title": "Contract has no breach notification clause", "severity": "high", "controls": ["SR-8"], "csf": ["GV.SC-05"],
+     "remediation": "Require the vendor to notify you of security incidents affecting your data or systems within a set time, such as 72 hours."},
+    {"id": "VR-04", "title": "Contract has no right to audit or assess", "severity": "medium", "controls": ["SR-6"], "csf": ["GV.SC-05"],
+     "remediation": "Add the right to request evidence (such as a SOC 2 report) or to assess the vendor's controls."},
+    {"id": "VR-05", "title": "No data return or destruction terms at contract end", "severity": "medium", "controls": ["SA-9"], "csf": ["GV.SC-10"],
+     "remediation": "Require return or certified destruction of your data when the relationship ends, and revoke the vendor's access."},
+    {"id": "VR-06", "title": "Vendor has remote access without MFA", "severity": "critical", "controls": ["AC-17", "SA-9"], "csf": ["GV.SC-05", "PR.AA-03"],
+     "remediation": "Require MFA for all vendor remote access, route it through your VPN or a remote access tool you control, and enable it only when needed."},
+    {"id": "VR-07", "title": "Vendor reported a breach in the last 24 months", "severity": "high", "controls": ["SR-6"], "csf": ["GV.SC-07"],
+     "remediation": "Ask for the incident report and corrective actions, confirm whether your data was affected, and reassess the vendor."},
+    {"id": "VR-08", "title": "Weak vendor controls protecting sensitive data", "severity": "high", "controls": ["SA-9", "SR-6"], "csf": ["GV.SC-07"],
+     "remediation": "Agree on a remediation plan with dates, limit the data shared, or consider an alternative vendor."},
+    {"id": "VR-09", "title": "Security questionnaire is incomplete", "severity": "low", "controls": ["SR-6"], "csf": ["GV.SC-07"],
+     "remediation": "Follow up on unanswered questions; unanswered items are scored as not in place until confirmed."}
+  ]
+}

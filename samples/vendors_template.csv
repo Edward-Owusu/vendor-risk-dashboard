@@ -1,0 +1,2 @@
+vendor,service,owner,data_sensitivity,system_access,business_criticality,remote_access,certifications,last_assessment_date,breach_last_24mo,contract_security_clause,contract_breach_notification,contract_right_to_audit,contract_data_return,q_mfa,q_encryption,q_patching,q_backup,q_incident_response,q_access_review,q_training,q_subprocessors
+Example IT Provider,Managed IT services,IT manager,confidential,privileged,critical,true,soc2,2026-01-15,false,true,true,true,true,yes,yes,yes,yes,yes,partial,yes,no

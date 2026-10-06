@@ -1,0 +1,9 @@
+vendor,service,owner,data_sensitivity,system_access,business_criticality,remote_access,certifications,last_assessment_date,breach_last_24mo,contract_security_clause,contract_breach_notification,contract_right_to_audit,contract_data_return,q_mfa,q_encryption,q_patching,q_backup,q_incident_response,q_access_review,q_training,q_subprocessors
+Frontier Managed Security,Managed detection and IT support,Lin Chen,confidential,privileged,critical,true,soc2,2026-04-15,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,yes
+ColdTrack WMS,Warehouse management SaaS,Pat Ward,confidential,limited,critical,false,soc2;iso27001,2026-02-10,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,partial
+CloudDesk 365,Email and file storage,Lin Chen,confidential,limited,critical,false,soc2;iso27001;fedramp,2026-01-20,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,yes
+Arctic Refrigeration Services,Refrigeration control maintenance,Facilities,internal,limited,critical,true,,2026-03-05,false,true,true,true,true,yes,yes,partial,yes,yes,yes,yes,partial
+Ledgerline Payroll,Payroll and HR software,Nadia Ali,regulated,limited,high,false,soc2,2026-05-22,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,yes
+Harbor CPA Group,Accounting and tax,Hana Kim,regulated,none,high,false,,2026-06-30,false,true,true,true,true,yes,yes,yes,yes,yes,partial,yes,yes
+SecureShred,Document destruction,Office,confidential,none,low,false,naid,2025-12-12,false,true,true,true,true,yes,yes,yes,yes,yes,yes,yes,yes
+FleetLink Telematics,Truck tracking SaaS,Dispatch,internal,limited,high,false,soc2,2024-08-01,false,true,true,false,true,yes,yes,yes,yes,yes,yes,partial,partial
