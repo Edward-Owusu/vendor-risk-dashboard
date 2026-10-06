@@ -2,6 +2,8 @@
 
 [![tests](https://github.com/Edward-Owusu/vendor-risk-dashboard/actions/workflows/tests.yml/badge.svg)](https://github.com/Edward-Owusu/vendor-risk-dashboard/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23193527.svg)](https://doi.org/10.5281/zenodo.23193527)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vendor-risk-heatmap.streamlit.app)
 
 An open-source tool that helps **small and mid-sized organizations** manage the security risk that comes from their vendors and service providers. It scores every vendor on impact and likelihood, places them on a **risk heat map**, builds a **scorecard** for each one, and lists concrete fixes in contracts, assessments, and vendor controls, mapped to **NIST SP 800-53 Rev. 5** supply chain controls and the **NIST Cybersecurity Framework 2.0**.
 
@@ -59,6 +61,8 @@ Open the HTML file in the `reports` folder for the heat map and scorecards. Pre-
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
+
+Try the hosted version at https://vendor-risk-heatmap.streamlit.app, or run it locally:
 
 ### Use in automation
 
